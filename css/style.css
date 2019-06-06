@@ -43,6 +43,9 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  color: #fff;
+  text-align: left;
+  /*font-weight: bold;*/
 }
 
 /* Back to top button */
@@ -173,9 +176,11 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
-  background-size: cover;
-  padding: 200px 0 120px 0;
+  /*background: url("../img/intro-bg.png") center bottom no-repeat;*/
+  background-color: #2a7ffe;
+  margin-top: 5em;
+  border-bottom: 10px solid #ff7228;
+  padding: 84px 0 0px 0;
 }
 
 #intro .intro-img {
